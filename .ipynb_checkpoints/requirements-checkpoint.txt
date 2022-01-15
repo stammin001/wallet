@@ -1,0 +1,16 @@
+Dependencies to be installed
+
+1. Install hd-wallet-derive
+   
+   1. Input C:\Program Files\Git\bin\bash.exe directly into the system search bar and launch the program as Administrator from the resulting menu.
+   2. cd into folder where this is needed and run the following code:
+       
+         git clone https://github.com/dan-da/hd-wallet-derive
+         cd hd-wallet-derive
+         curl https://getcomposer.org/installer -o installer.php
+         php installer.php
+         php composer.phar install
+
+2. bit Python Bitcoin library: pip install bit
+
+3. web3.py Python Ethereum library: pip install web3
