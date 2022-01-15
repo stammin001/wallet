@@ -5,21 +5,29 @@ This wallet helps with transfer of bitcoin or ethereum from one address to anoth
 
 ### How to use
 
-1. Call derive_wallets() function with appropriate parameters as below to generate the public/private keys based on mnemonic:
-   
-   ![Wallet_Keys]()
-   
-2. In order to send bitcoin, will have to call send_tx function with appropriate parameter values. Below is the snapshot of an example:
+1. Please refer to requirements.txt file for installing some of the dependencies
 
-  ![BTC Transaction Input]()
+2. Call derive_wallets() function with appropriate parameters as below to generate the public/private keys based on mnemonic:
+   
+   ![Derive_Wallet](screenshots/Derive_Wallets.PNG)
+   
+   Below is the snapshot of keys generated for different coins like BTC-Test, ETH and LTC
+   
+   ![BTC_Keys](screenshots/BTC_Keys.PNG)
+   ![ETH_Keys](screenshots/ETH_Keys.PNG)
+   ![LTC_Keys](screenshots/LTC_Keys.PNG)
+   
+3. In order to send test bitcoin, will have to call send_tx function with appropriate parameter values. Below is the snapshot of an example:
+
+  ![BTC Transaction Input](screenshots/BTCTest_Transaction_Request.PNG)
 
    Below is the snapshot of the resulting transaction out of this
 
   ![BTC Transaction Output](screenshots/BTCTest_Transaction_2.PNG)
 
-3. In order to send ethereum, will have to call send_tx function with appropriate parameter values. Below is the snapshot of an example:
+4. In order to send ethereum, will have to call send_tx function with appropriate parameter values. Below is the snapshot of an example:
 
-  ![ETH Transaction Input]()
+  ![ETH Transaction Input](screenshots/ETHTest_Transaction_Request.PNG)
 
    Below is the snapshot of the resulting transaction out of this
 
