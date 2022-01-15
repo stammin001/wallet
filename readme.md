@@ -1,6 +1,6 @@
 # Wallet for Bitcoin and Ethereum
 
-### Descirption
+### Description
 This wallet helps with transfer of bitcoin or ethereum from one address to another. This is built with HD Wallet tool which would result to deterministic accounts based on the mnemonic provided. 
 
 ### How to use
